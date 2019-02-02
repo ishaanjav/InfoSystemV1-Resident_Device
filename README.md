@@ -27,9 +27,16 @@ Additionally, in the top `ActionBar` of the app, there is a danger/warning symbo
 - **Text-To-Speech** for reading users' account information to the patient.
 - Receive notifications when **visitors sign in**.
 - Receive notifications when **visitors fail to sign in** and get the option to call the caretaker with a press of a button.
+- Allowing the caretaker to track the resident's location, *in the case that they get lost*, by sending the device's location to Firebase when the caretaker opens the Location Tracking page in [their app]()
 - **Action Bar Icons**:
    * Easy method of **contacting the caretaker**
    * **Text-To-Speech-From-Image** *, images from camera*
    * **Image Labelling** *, images from camera*
+## Link Second to Last Bullet Point
+-----
+# Setup
+**To use the app:** you simply have to clone this repository, open it in Android Studio, and run it on your Android device. 
+**Once you have installed the app on your device, you can start using it without having to follow any additional steps.**
 
+Unlike some of my [other repositories](https://github.com/ishaanjav), this app does not use APIs like the Face API or Kairos's SDK for Android. However, it does use **Firebase**, *which you will not need to worry about because the connection to Firebase is already in `google-services.json`. 
 
