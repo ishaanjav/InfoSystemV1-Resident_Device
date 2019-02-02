@@ -38,5 +38,5 @@ Additionally, in the top `ActionBar` of the app, there is a danger/warning symbo
 **To use the app:** you simply have to clone this repository, open it in Android Studio, and run it on your Android device. 
 **Once you have installed the app on your device, you can start using it without having to follow any additional steps.**
 
-Unlike some of my [other repositories](https://github.com/ishaanjav), this app does not use APIs like the Face API or Kairos's SDK for Android. However, it does use **Firebase**, *which you will not need to worry about because the connection to Firebase is already in `google-services.json`. 
+Unlike some of my [other repositories](https://github.com/ishaanjav), this app does not use APIs like the Face API or Kairos's SDK for Android. However, it does use **Firebase**, *which you will not need to worry about because the Firebase connection is already in `google-services.json`*. 
 
