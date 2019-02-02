@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="290sp"
+    android:layout_height="415dp"
+    android:background="#545454">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:fontFamily="@font/caviardreams"
+        android:text="A Visitor Signed In!"
+        android:textAlignment="center"
+        android:textColor="#ff6600"
+        android:textSize="32sp" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="9dp"
+        android:src="@drawable/danger" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="9dp"
+        android:src="@drawable/danger" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_below="@id/title"
+        android:layout_marginTop="13dp"
+        android:background="#ffb700"></RelativeLayout>
+
+    <TextView
+        android:id="@+id/namer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/caviarbold"
+        android:text="A visitor at the front door failed to sign in 3 times."
+        android:textAlignment="center"
+        android:textColor="#dd3005"
+        android:textSize="25sp"
+
+        />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/namer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/rlight"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#ff9500"
+        android:textSize="21dp" />
+
+
+    <Button
+        android:id="@+id/warn"
+        android:layout_width="145dp"
+        android:layout_height="65dp"
+        android:layout_alignParentLeft="true"
+        android:background="#feb69e"
+        android:text="Call Ishaan"
+        android:textAlignment="center"
+        android:layout_alignParentBottom="true"
+        android:textColor="#ff2b00"
+        android:textAllCaps="false"
+        android:textSize="23sp"
+
+
+        android:layout_marginBottom="12dp"
+        />
+
+    <Button
+        android:id="@+id/cancel_action"
+        android:layout_width="145dp"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="#a41f04"
+        android:text="Cancel"
+        android:textAlignment="center"
+        android:textColor="#fd9c7c"
+        android:textSize="23sp"
+
+        />
+
+</RelativeLayout>

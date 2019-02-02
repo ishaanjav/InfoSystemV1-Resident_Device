@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/text2speech"
+        android:icon="@drawable/text2speechicon"
+        android:orderInCategory="100"
+        android:title="Read Text From Image"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/realdanger"
+        android:orderInCategory="100"
+        android:title="Call Caretaker"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/objectdetect"
+        android:icon="@drawable/objecticon"
+        android:orderInCategory="100"
+        android:title="Recognize Objects"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Information System</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_gps">GPS</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">YOUR API KEY HERE</string>
+
+</resources>

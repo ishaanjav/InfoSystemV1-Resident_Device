@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="290sp"
+    android:layout_height="465dp"
+    android:background="#dddddd">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/caviardreams"
+        android:text="A Visitor Signed In!"
+        android:textAlignment="center"
+        android:textColor="#ff6600"
+        android:textSize="28sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_below="@id/title"
+        android:layout_marginTop="4dp"
+        android:background="#ffb700"></RelativeLayout>
+
+    <TextView
+        android:id="@+id/namer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/caviarbold"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#dd3005"
+        android:textSize="26sp"
+
+        />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/namer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/rlight"
+        android:text="Phone Number: "
+        android:textAlignment="center"
+        android:textColor="#ce7902"
+        android:textSize="21dp" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/rlight"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#eb6f02"
+        android:textSize="21dp" />
+
+    <TextView
+        android:id="@+id/relation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/rlight"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#f00"
+        android:textSize="21dp" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="240dp"
+        android:layout_height="220dp"
+        android:layout_below="@id/relation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/oneuser" />
+
+
+    <Button
+        android:id="@+id/getinfo"
+        android:layout_width="145dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#b30000"
+        android:text="More Info"
+        android:textColor="#fca9a9"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/cancel_action"
+        android:layout_width="145dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="#fd9c7c"
+        android:text="Cancel"
+        android:textAlignment="center"
+        android:textColor="#a41f04"
+        android:textSize="23sp"
+
+        />
+
+</RelativeLayout>
