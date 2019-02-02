@@ -1,7 +1,7 @@
 # Info System V1 - Resident  Device
 **The purpose of this Android app is to serve as part of a system of 3 applications that inform patients with diseases such as Alzheimer's or dementia about visitors coming to the house since they have difficulties recognizing faces and objects.** In addition to viewing the visitor's name, the Alzheimer's patient will also receive a picture of the visitor, their contact details, and other information about them such as their relation to the resident and an extended description of themself. 
 
-This app is meant to help the Alzheimer's patient not only see that a visitor has logged in, but also *understand* who they are. The app is useful because patients with Alzheimer's suffer from memory loss due to the death of brain cells from a plaque containing beta amyloid. This app is able to provide critical information about visitors that can not only help the patient identify who they are, but know *who* they are. 
+Patients with Alzheimer's suffer from memory loss due to the death of brain cells from a plaque containing beta amyloid. This app is meant to help the Alzheimer's patient not only see that a visitor has logged in, but also *understand* who they are by providing them with useful information.
 
 ### Possible Applications:
 - **Homes of individuals with Alzheimer's or dementia:** The Information System would be very effective at individual homes of patients. The patient's caretaker would be able to approve visitors' accounts before they start using them and both the patient and caretaker would be aided: the patient by getting information about visitors and the caretaker by being able to view a log of events in their [own app]().
