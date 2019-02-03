@@ -8,13 +8,10 @@
 Patients with Alzheimer's suffer from memory loss due to the death of brain cells from a plaque containing beta amyloid. This app is meant to help the Alzheimer's patient not only see that a visitor has logged in, but also *understand* who they are by providing them with useful information.
 
 ### Possible Applications:
-- **Homes of individuals with Alzheimer's or dementia:** The Information System would be very effective at individual homes of patients. The patient's caretaker would be able to approve visitors' accounts before they start using them and both the patient and caretaker would be aided: the patient by getting information about visitors and the caretaker by being able to view a log of events in their [own app]().
+- **Homes of individuals with Alzheimer's or dementia:** The Information System would be very effective at individual homes of patients. The patient's caretaker would be able to approve visitors' accounts before they start using them and both the patient and caretaker would be aided: the patient by getting information about visitors and the caretaker by being able to view a log of events in their [own app](https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device).
 - **Old-age homes:** The Information System can serve a great purpose in residential homes for the elderly because it would provide a method of authenticating visitors before they could enter the home. Additionally, the social workers would be able to verify visitors' accounts.
 
-## LINKS ABOVE. END OF FIRST BULLET POINT.
-
-###### This app is a part of a system of 3 other apps that function together to accomplish the processes and purposes described above. It is **not** a stand-alone app and is meant to be used in collaboration with the two other apps that can be found at these repositories: [CARETAKER APP REPOSITORY](), [VISITOR DEVICE APP REPOSITORY](https://github.com/ishaanjav/InfoSystemV1-Visitor_Device).
-## LINKS ABOVE
+###### This app is a part of a system of 3 other apps that function together to accomplish the processes and purposes described above. It is **not** a stand-alone app and is meant to be used in collaboration with the two other apps that can be found at these repositories: [CARETAKER APP REPOSITORY](https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device), [VISITOR DEVICE APP REPOSITORY](https://github.com/ishaanjav/InfoSystemV1-Visitor_Device).
 
 -----
 # Usage
@@ -30,12 +27,11 @@ Additionally, in the top `ActionBar` of the app, there is a danger/warning symbo
 - **Text-To-Speech** for reading users' account information to the patient.
 - Receive notifications when **visitors sign in**.
 - Receive notifications when **visitors fail to sign in** and get the option to call the caretaker with a press of a button.
-- Allowing the caretaker to track the resident's location, *in the case that they get lost*, by sending the device's location to Firebase when the caretaker opens the Location Tracking page in [their app]()
+- Allowing the caretaker to track the resident's location, *in the case that they get lost*, by sending the device's location to Firebase when the caretaker opens the Location Tracking page in [their app.](https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device)
 - **Action Bar Icons**:
    * Easy method of **contacting the caretaker**
    * **Text-To-Speech-From-Image** *, images from camera*
    * **Image Labelling** *, images from camera*
-## Link Second to Last Bullet Point
 -----
 # Setup
 **To use the app:** you simply have to clone this repository, open it in Android Studio, and run it on your Android device. 
@@ -48,9 +44,8 @@ Unlike some of my [other repositories](https://github.com/ishaanjav), this app d
 This app is not meant to be a stand-alone app and works alongside 2 other apps as part of the "Information System". The apps function together to provide the patient and their caretaker with information about visitors and visits to the house. A list of the apps is below:
 
 - [**Visitor Device App Repository**](https://github.com/ishaanjav/InfoSystemV1-Visitor_Device): The purpose of this Android application is to serve as part of a system of 3 apps that collect information about visits to the house. This app, in particular, is used to validate visitors who are logging in to the system. Once a visitor has signed into the app, the Alzheimer's patient and their caretaker are notified.
-- [**Caretaker App Repository**](): 
+- [**Caretaker App Repository**](https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device): The purpose of this Android application is to serve as part of a system of 3 apps that collect information about visits to the house. This app, in particular, is the app for the patient's caretaker who can view events that the system logs, approve or decline accounts of new visitors, track the patient if they get lost, and analyze their emotions.
 
-## Link ABOVE
 
 
 
